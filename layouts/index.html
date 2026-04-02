@@ -1,0 +1,18 @@
+{{ define "main" }}
+<section class="email-section">
+  <h2>Send me an email.</h2>
+  <p><a href="mailto:only1lushv@gmail.com?subject=Hello%20vlush!">only1lushv@gmail.com</a></p>
+</section>
+
+<section class="album-grid">
+  {{ range hugo.Data.albums }}
+  <a href="{{ .link }}" target="_blank" rel="noopener" class="album-item">
+    <img
+      src="{{ .image }}"
+      alt="{{ .alt }}"
+      loading="lazy"
+    />
+  </a>
+  {{ end }}
+</section>
+{{ end }}

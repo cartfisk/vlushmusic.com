@@ -1,0 +1,17 @@
+baseURL = "https://youwont.bet"
+languageCode = "en-us"
+title = "vlush"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  email = "only1lushv@gmail.com"
+
+[[menus.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menus.main]]
+  name = "Shop"
+  url = "/shop/"
+  weight = 3

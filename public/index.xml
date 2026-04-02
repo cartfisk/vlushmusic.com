@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vlush</title>
+    <link>https://youwont.bet/</link>
+    <description>Recent content on vlush</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://youwont.bet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Download</title>
+      <link>https://youwont.bet/download/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://youwont.bet/download/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shop</title>
+      <link>https://youwont.bet/shop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://youwont.bet/shop/</guid>
+      <description>&lt;h1 id=&#34;merch-coming-soon&#34;&gt;Merch coming soon.&lt;/h1&gt;</description>
+    </item>
+  </channel>
+</rss>
