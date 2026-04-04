@@ -1,6 +1,6 @@
-# youwont.bet — vlush site
+# vlushmusic.com — vlush site
 
-Hugo site for [youwont.bet](https://youwont.bet).
+Hugo site for [vlushmusic.com](https://vlushmusic.com).
 
 ## Development
 
