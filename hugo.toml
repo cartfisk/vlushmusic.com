@@ -16,6 +16,11 @@ enableGitInfo = true
   weight = 1
 
 [[menus.main]]
+  name = "Blog"
+  url = "/articles/"
+  weight = 2
+
+[[menus.main]]
   name = "Shop"
   url = "/shop/"
   weight = 3
