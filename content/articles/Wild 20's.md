@@ -2,7 +2,7 @@
 title: Wild 20's
 author: vlush
 date: 2022-07-14
-draft: false
+draft: true
 tags:
   - music
   - games
