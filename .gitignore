@@ -6,8 +6,9 @@
 # macOS
 .DS_Store
 
-# VS Code
+# Editors
 .vscode
+.obsidian
 
 # Squarespace archive (sensitive financial/export data)
 squarespace-archive/
