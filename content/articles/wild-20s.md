@@ -2,7 +2,7 @@
 title: Wild 20's
 author: vlush
 date: 2022-07-14
-draft: false
+draft: true
 tags:
   - music
   - games
@@ -10,6 +10,7 @@ tags:
   - writing
   - workflow
   - methodology
+share: true
 ---
 
 A couple nights ago, an idea came to me before bed for a "game" framework to help structure production sessions. The game is inspired by something I heard (but can't back up with references) about a methodology employed by Brian Eno and Daniel Lanois' when mixing records. One person would get 30 minutes to start a mix of the record they were working on. At the end of thirty minutes, the other person would have 30 minutes to work and the option to either start where the last mixer left off, or start entirely from scratch. The game I conceptualized is an expansion of this methodology, specifically tailored for production sessions and for collaboration groups larger than two people.

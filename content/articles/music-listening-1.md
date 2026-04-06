@@ -4,6 +4,7 @@ author: "vlush"
 date: 2025-04-28
 draft: false
 tags: ["music", "streaming", "indie", "music discovery", "spotify", "active listening"]
+share: true
 ---
 
 _Originally published in Eighty Twenty magazine (Issue #1)_
