@@ -2,7 +2,7 @@
 title: '"first" post'
 author: vlush
 date: 2026-04-06
-draft: true
+draft: false
 tags:
   - personal
   - tech
