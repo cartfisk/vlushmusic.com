@@ -1,0 +1,20 @@
+{{ define "head_extra" }}
+{{ partial "articles-styles.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<div class="article-list">
+  <ul>
+    {{ range .Pages.ByDate.Reverse }}
+    <li>
+      <a href="{{ .RelPermalink }}" class="article-list-item">
+        <strong><span class="article-list-title">{{ .Title }}</span></strong>
+        {{ if not .Date.IsZero }}
+          <span class="article-list-date">{{ .Date.Format "January 2, 2006" }}</span>
+        {{ end }}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
