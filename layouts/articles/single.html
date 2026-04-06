@@ -7,6 +7,6 @@
   <h2>{{ .Title }}</h2>
   <p>by <strong><em>{{ .Params.author }}</em></strong>{{ if not .Date.IsZero }} - {{ .Date.Format "January 2, 2006" }} <small><em>(updated {{ .Lastmod.Format "1/2/06" }})</em></small>{{ end }}</p>
   <hr>
-  {{ .Content }}
+  <div class="article-content">{{ .Content }}</div>
 </div>
 {{ end }}

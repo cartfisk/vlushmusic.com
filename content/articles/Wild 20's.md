@@ -11,6 +11,7 @@ tags:
   - workflow
   - methodology
 share: true
+collapsible: true
 ---
 A few nights back, an idea came to me for a "game" framework to help structure music production sessions. The idea was inspired by something I heard or read (but can't find reference for) about methodology employed by Brian Eno and Daniel Lanois' while mixing records. One person would get 30 minutes to start a mix of the record they were working on. At the end of thirty minutes, the other person would have 30 minutes to work with the option to either work from the current state, or start entirely from scratch. The game I conceptualized is an expansion of this methodology, specifically tailored for production sessions and for collaboration groups larger than two people.
 

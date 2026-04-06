@@ -98,6 +98,34 @@
     font-family: BookerlyDisplay, Georgia, 'Times New Roman', serif;
     text-align: left;
   }
+  {{ if .Params.collapsible }}
+  .article-content h2,
+  .article-content h3,
+  .article-content h4 {
+    cursor: pointer;
+    user-select: none;
+  }
+  .article-content h2::before,
+  .article-content h3::before,
+  .article-content h4::before {
+    content: '▾';
+    display: inline-block;
+    margin-right: 0.35em;
+    font-size: 0.75em;
+    vertical-align: middle;
+    transition: transform 0.2s ease;
+    transform-origin: center;
+  }
+  .article-content h2.collapsed::before,
+  .article-content h3.collapsed::before,
+  .article-content h4.collapsed::before {
+    transform: rotate(-90deg);
+  }
+  .collapsible-section {
+    overflow: hidden;
+    transition: max-height 0.25s ease;
+  }
+  {{ end }}
   .article-body table {
     border-collapse: collapse;
     width: auto;
@@ -118,3 +146,52 @@
     background-color: #fafafa;
   }
 </style>
+{{ if .Params.collapsible }}
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.article-content');
+    if (!content) return;
+
+    function getLevel(el) {
+      return parseInt(el.tagName[1], 10);
+    }
+
+    // Process deepest headings first so nested sections are wrapped before their parents
+    [4, 3, 2].forEach(function (level) {
+      content.querySelectorAll('h' + level).forEach(function (heading) {
+        var siblings = [];
+        var next = heading.nextElementSibling;
+        while (next) {
+          if (/^H[1-6]$/.test(next.tagName) && getLevel(next) <= level) break;
+          siblings.push(next);
+          next = next.nextElementSibling;
+        }
+        if (!siblings.length) return;
+
+        var section = document.createElement('div');
+        section.className = 'collapsible-section';
+        siblings[0].parentNode.insertBefore(section, siblings[0]);
+        siblings.forEach(function (el) { section.appendChild(el); });
+
+        heading.addEventListener('click', function () {
+          if (heading.classList.contains('collapsed')) {
+            heading.classList.remove('collapsed');
+            section.style.maxHeight = section.scrollHeight + 'px';
+            section.addEventListener('transitionend', function once() {
+              section.removeEventListener('transitionend', once);
+              if (!heading.classList.contains('collapsed')) {
+                section.style.maxHeight = 'none';
+              }
+            });
+          } else {
+            section.style.maxHeight = section.scrollHeight + 'px';
+            section.getBoundingClientRect(); // force reflow before transitioning
+            heading.classList.add('collapsed');
+            section.style.maxHeight = '0';
+          }
+        });
+      });
+    });
+  });
+</script>
+{{ end }}
