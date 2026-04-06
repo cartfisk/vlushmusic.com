@@ -1,0 +1,45 @@
+{{ define "head_extra" }}
+<style>
+  body {
+    background-color: #fff;
+    color: #111;
+  }
+  .site-header,
+  .site-footer {
+    background-color: #fff;
+    color: #111;
+  }
+  .site-header a,
+  .site-footer a {
+    color: #111;
+  }
+  .article-body {
+    /* max-width: 680px; */
+    /* padding: 0 var(--site-gutter); */
+    font-family: Bookerly, Georgia, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    line-height: 1.75;
+    text-align: left;
+    opacity: 1;
+  }
+  .article-body .footnotes {
+    font-size: .9rem;
+  }
+  .article-body strong {
+    font-weight: 700;
+  }
+  .article-body h1,
+  .article-body h2,
+  .article-body h3,
+  .article-body h4 {
+    font-family: Bookerly, Georgia, 'Times New Roman', serif;
+    text-align: left;
+  }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<div class="article-body">
+  {{ .Content }}
+</div>
+{{ end }}
