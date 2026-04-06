@@ -1,5 +1,47 @@
 {{ define "head_extra" }}
 <style>
+  @font-face {
+    font-family: Bookerly;
+    src: url('/fonts/bookerly-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: Bookerly;
+    src: url('/fonts/bookerly-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: Bookerly;
+    src: url('/fonts/bookerly-italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: Bookerly;
+    src: url('/fonts/bookerly-bold-italic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: BookerlyDisplay;
+    src: url('/fonts/bookerly-display-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: BookerlyDisplay;
+    src: url('/fonts/bookerly-display-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
   body {
     background-color: #fff;
     color: #111;
@@ -32,7 +74,7 @@
   .article-body h2,
   .article-body h3,
   .article-body h4 {
-    font-family: Bookerly, Georgia, 'Times New Roman', serif;
+    font-family: BookerlyDisplay, Georgia, 'Times New Roman', serif;
     text-align: left;
   }
 </style>
@@ -40,6 +82,9 @@
 
 {{ define "main" }}
 <div class="article-body">
+  <h2>{{ .Title }}</h2>
+  <p>by <strong><em>{{ .Params.author }}</em></strong>{{ if not .Date.IsZero }} - {{ .Date.Format "January 2, 2006" }} <small><em>(updated {{ .Lastmod.Format "1/2/06" }})</em></small>{{ end }}</p>
+  <hr>
   {{ .Content }}
 </div>
 {{ end }}
