@@ -33,23 +33,23 @@ Art at its best resists categorization (despite endless minting of new sub-genre
 
 Here's my tiered advice for active listening/discovery for wherever you're at right now:
 
-**T1 — Discover Weekly-pilled:** _I have no idea where to start, all I know is Discover Weekly and the skip button--_
+Tier 1 — **Discover Weekly-pilled:** _I have no idea where to start, all I know is Discover Weekly and the skip button_
 
 I'd suggest first developing your genre vocabulary. At base, try to better understand the sub-genres associated with your top-five favorite artists. Find other works in these genres and determine what aspects of sub-genres you like or dislike. Although genres are an imperfect categorization tool, they provide a good jumping off point for discovering new music in a similar sonic region. Explore three sub-genres of your favorite "main" genres. i.e. **House** → **Acid house, Tech house, Footwork**
 
 I also acknowledge there is a time and place for passive listening in everyone's life. It's not always practical to have a custom-made playlist for every daily occasion and sometimes you don't want to listen to an album front-to-back. For some passive listening alternatives to Spotify, look to internet radio stations like **NTS.live**. NTS is one of several excellent online radio stations for which most of their 24/7 programming is archived for post-broadcast listening. You can find sets DJ'ed by a wide variety of artists and throw on some background music without giving any royalty share to Spotify or letting the machine in the sky decide your next song.
 
-**T2 — I think I know what I like:** _I already know what I like in terms of genre but don't know where to find it outside of Spotify playlists--_
+Tier 2 — **I think I know what I like:** _I already know what I like in terms of genre but don't know where to find it outside of Spotify playlists_
 
 Try doing some research into your favorite independent artists' record labels. Independent labels have traditionally tried to present a specific viewpoint in terms of genre, locale, scene, etc. For you, this means that your favorite artists probably have some labelmates whose music aligns with your taste. Check out some of the longer-tenured indie label websites' "Roster" or "Artists" pages and see if you find anyone you already know. If a song you like has a featured artist, see if they are signed to a different label and check out that label's artists.
 
-**T3 — Indie-label head:** _I know everything there is to know about indie labels and I want to go deeper--_
+Tier 3 — **Indie-label head:** _I know everything there is to know about indie labels and I want to go deeper_
 
 Great, now it's time for unsigned or self-signed artists. Finding great unsigned artists is hard work-- they usually don't have access to the PR / marketing machine and thus require deeper digging to find. Record labels pay people (A&Rs) good salaries to do exactly this work; be aware that it's not always easy but it is immensely rewarding to have the privilege of being "early" to discover small unsigned artists.
 
 The most immediate way to discover unsigned music is by attending local concerts. The twin cities (and most mid-sized US cities) have vast music scenes with tons of talent performing nightly. You can research local venues to get a sense for what sorts of acts they tend to book, or find the nearest venue and buy a ticket at the door. Local shows are also a great way to meet other aficionados to exchange recommendations. Regularly attending concerts and meeting concert-goers, venue staff, and artists/performers is a surefire way to discover great local music.
 
-**T4 — I'm at the shows:** _I know everyone in the local scene and I want to have cooler taste than all my friends--_
+Tier 4 — **I'm at the shows:** _I know everyone in the local scene and I want to have cooler taste than all my friends_
 
 Outside of shows, becoming a part of music communities is another easy way to discover new music. In **Part III** I will go more in-depth about music communities/scenes and ways to participate in them. For now, I will define "music community" as any group of people that share a common interest in music. Some examples:
 
