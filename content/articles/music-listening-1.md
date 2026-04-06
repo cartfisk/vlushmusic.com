@@ -1,17 +1,12 @@
 ---
-title: "The Human Beings' Guide to Sustainable Music-listening, Part 1"
-subtitle: "Part 1"
+title: "The Human Beings' Guide to Sustainable Music-listening"
 author: "vlush"
-date: 2026-04-06
+date: 2025-04-28
 draft: false
 tags: ["music", "streaming", "indie", "music discovery", "spotify", "active listening"]
 ---
 
-## The Human Beings' guide to Sustainable Music-listening
-
-### by vlush
-
----
+_Originally published in Eighty Twenty magazine (Issue #1)_
 
 ## FOREWORD
 
@@ -28,7 +23,7 @@ this guide (in parts) will attempt to provide you with practical advice, insight
 
 ---
 
-## Part I: Active music discovery
+## 1. Active music discovery
 
 Until the streaming era, there wasn't a need for use of the word "active" as it pertains to music listening/discovery. Before "Discover Weekly" and algorithmic playlists, music listeners always actively curated the music they listened to. Even the most passive extents of the pre-streaming listening spectrum (i.e. choosing a radio station in the car) are acts of active listening/discovery. It's probably helpful to first explore the concept of "passive" music listening...
 
