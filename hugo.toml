@@ -5,7 +5,8 @@ disableKinds = ["taxonomy", "term"]
 enableGitInfo = true
 
 [frontmatter]
-  lastmod = [":git", "lastmod", ":fileModTime", ":default"]
+  date = ["date", ":git"]
+  lastmod = ["updated_date", ":git"]
 
 [params]
   email = "only1lushv@gmail.com"
