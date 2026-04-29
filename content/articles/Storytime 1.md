@@ -19,5 +19,6 @@ I rode my bike to Whole Foods on Excelsior around noon and picked up a couple of
 
 This was at the time, and still is, one of the most touching and sweet things anyone has ever said to me. Perhaps a random and small moment but it truly made me feel seen, and continues to inspire me to apply the same level of observance and courage to provide others with that kind of seeing and acknowledgement. I often think about this moment and a few other similar times I have been surprised with an acknowledgement of something I pride myself on. In a life where so much of what we do, who we are, and who we strive to be goes seemingly unnoticed, moments like these serve as savory reminders that really, even without appreciation or acknowledgement, our character and qualities shine through. I hope everyone gets many more moments like this one, and I hope day-by-day, we show up with courage to be generous to others in this way, knowing that a small gesture of observance and acknowledgement can make someone’s day.
 
-Big hug, little kiss
+*Big hug, little kiss*
+
 \- vlush
