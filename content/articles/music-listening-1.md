@@ -2,6 +2,7 @@
 title: The Human Beings' Guide to Sustainable Music-listening
 author: vlush
 date: 2025-04-28
+updated_date: 2026-04-06
 draft: false
 tags:
   - music
